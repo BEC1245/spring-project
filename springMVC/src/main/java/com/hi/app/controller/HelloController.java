@@ -17,7 +17,7 @@ public class HelloController {
         ModelAndView mav = new ModelAndView();
 
         // view의 경로를 설정해보자
-        mav.setViewName("index.jsp"); // /WEB-INF/views/hello.jsp
+        mav.setViewName("index"); // /WEB-INF/views/hello.jsp
 
         // attributeName = 전달할 데이터의 이름, attributeValue = 전달할 값
         mav.addObject("greeting", "hello");

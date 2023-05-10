@@ -4,6 +4,8 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+    <!-- dispatcher servlet 관련 설정 -->
+
     <!-- web.xml에 설정 등록 -->
     <!-- root.context.xml 파일의 경로를 param-value로 등록해야함 -->
     <context-param>
@@ -16,6 +18,7 @@
     </listener>
 
 <!--    서블릿 관련 설정 (파일 불러오기....)-->
+<!--    dispatcher servlet 설정 -->
     <servlet>
         <servlet-name>appServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
