@@ -1,0 +1,59 @@
+plugins {
+  id 'java'
+  id 'war'
+}
+
+group 'com.hi'
+version '1.0-SNAPSHOT' // snapshot -> 개발 진행중
+
+repositories {
+  mavenCentral()
+}
+
+ext {
+  junitVersion = '5.9.2'
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+// 빋드 도구가 컴파일도 해줘서
+// encoding 장식을 설정 가능
+tasks.withType(JavaCompile) {
+  options.encoding = 'UTF-8'
+}
+
+dependencies {
+  compileOnly('javax.servlet:javax.servlet-api:4.0.1')
+
+  testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+  testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+  // 필요한 디펜던시 : Spring, log4j2, lombok, jstl, fileUpload, DB관련 (Connection Pool + mybatis)
+
+  // spring
+  // spring-core, spring-context, spring-test, [spring-webmvc] -> 버전은 통일
+  implementation group: 'org.springframework', name: 'spring-core', version: '5.3.16'
+  implementation group: 'org.springframework', name: 'spring-context', version: '5.3.16'
+  implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.16'
+  testImplementation group: 'org.springframework', name: 'spring-test', version: '5.3.16'
+
+  // log4j2
+  implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.16.0'
+  implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.16.0'
+  implementation group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.16.0'
+
+  // lombok
+  compileOnly 'org.projectlombok:lombok:1.18.22'
+  annotationProcessor 'org.projectlombok:lombok:1.18.22'
+  testCompileOnly 'org.projectlombok:lombok:1.18.22'
+  testAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
+
+  // jstl view 처리용
+  implementation group: 'jstl', name: 'jstl', version: '1.2'
+
+}
+
+test {
+  useJUnitPlatform()
+}
