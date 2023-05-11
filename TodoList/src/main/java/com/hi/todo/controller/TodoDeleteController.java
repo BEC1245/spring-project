@@ -8,7 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TodoDeleteController {
 
-    // delete 
+    // delete
     @RequestMapping("/todo/delete")
-    public
+    public String deleteTodo(){
+
+        log.info("just /todo/delete");
+        return "redirect:/todo/list";
+    }
 }
