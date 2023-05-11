@@ -3,6 +3,7 @@ package com.hi.app.controller;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Log4j2
@@ -27,7 +28,7 @@ public class SampleController {
         model.addAttribute("msg", "안녕하세요");
     }
 
-    @RequestMapping("/sample/sample3")
+    //@RequestMapping("/sample/sample3")
     public String getPage3(Model model){
 
         model.addAttribute("msg","반갑습니다");
