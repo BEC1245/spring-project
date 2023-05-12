@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <configuration status="INFO">
+
     <Appenders> <!-- 콜솔 -->
         <Console name="console" target="SYSTEM_OUT">
             <PatternLayout charset="UTF-8"
                            pattern="%d{hh:mm:ss} %5p [%c] %m%n"/>
         </Console>
     </Appenders>
+
     <loggers>
 
         <logger name="org.springframework" level="INFO" additivity="false">
@@ -14,7 +16,7 @@
         </logger>
 
         <!-- 여기가 출력을 맞춘 코드 [name 부분을 출력할 파일과 일치해야 한다] -->
-        <logger name="com.example" level="INFO" additivity="false">
+        <logger name="com.hi.todo" level="INFO" additivity="false">
             <appender-ref ref="console"/>
         </logger>
 
@@ -23,4 +25,5 @@
         </root>
 
     </loggers>
+
 </configuration>

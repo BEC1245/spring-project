@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9afd206-344c-4c66-ba0f-18f61d335797" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/config/CalculatorAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/config/CalculatorApplntlizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/dto/nameInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/todo/controller/TodoDeleteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/todo/controller/TodoDeleteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/todo/controller/TodoModifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/todo/controller/TodoModifyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/example/demoman/DeptDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/example/demoman/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/example/demoman/SampleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/resources/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/test/java/com/example/demoman/SampleTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +82,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hi/Documents/GitHub/spring-project/TodoList/src/main/resources",
+    "last_opened_file_path": "C:/Users/hi/Documents/GitHub/spring-project/demoman",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +90,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "70ab5eafc742d43bfbee6c92145ba50e",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -178,7 +197,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683766142718</updated>
-      <workItem from="1683766143681" duration="10911000" />
+      <workItem from="1683766143681" duration="13513000" />
+      <workItem from="1683788516388" duration="175000" />
+      <workItem from="1683788716548" duration="674000" />
+      <workItem from="1683790115535" duration="4027000" />
+      <workItem from="1683847885693" duration="76000" />
+      <workItem from="1683850331189" duration="1226000" />
     </task>
     <servers />
   </component>
