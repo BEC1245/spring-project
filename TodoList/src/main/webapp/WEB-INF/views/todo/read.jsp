@@ -18,7 +18,17 @@
   <h3>${todo}</h3>
 
   <a href="/todo/modify">수정</a> <br>
-  <a href="/todo/delete">삭제</a> <br>
+
+  <form action="/todo/delete" method = "get">
+
+      삭제한다 : <input type="number" name="tno"> <br>
+      <input type="submit" value="제거한다">
+  </form>
+  <!--a href="/todo/delete">삭제</a--> <br>
+
+  <hr>
+
+  <h3>${error}</h3>
 
 </body>
 </html>
