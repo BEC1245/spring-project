@@ -13,13 +13,15 @@
 <body>
 
     <h1>Todo 수정</h1>
+    <h4>${strData}</h4>
     <hr>
 
     <form method="post">
-        tno <input type="text" name="tno" readonly>
-        todo <input type="text" name="todo"> <br>
-        duedate <input type="date" name="duedate"> <br>
-        complete <input type="checkbox" name="complete"> <br>
+        tno <input type="text" name="tno" value="1" readonly>
+        todo <input type="text" name="todo" value="놀기"> <br>
+        duedate <input type="date" name="duedate" value="2023-12-25"> <br>
+        complete <input type="checkbox" name="finished" checked> <br>
+
         <input type="reset" name="todo"> <input type="submit" value="수정함다">
 
     </form>

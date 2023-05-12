@@ -23,10 +23,6 @@
             <param-name>contextConfigLocation</param-name>
             <param-value>
                 /WEB-INF/spring/servlet-context.xml
-
-
-
-
             </param-value>
         </init-param>
 
@@ -43,6 +39,7 @@
     <filter>
         <filter-name>encoding</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+
         <init-param>
             <param-name>encoding</param-name>
             <param-value>UTF-8</param-value>
@@ -51,6 +48,10 @@
 
     <filter-mapping>
         <filter-name>encoding</filter-name>
-        <url-pattern>/</url-pattern>
+        <servlet-name>appServlet</servlet-name> <!-- 필터는 요청과 응답을 처리하는 서블릿에 넣어서 작동시켜야 한다 (urlPattern이 아니라는 소리) -->
     </filter-mapping>
+
+    <!-- Servlet에 필터를 넣어서 작동 시키게 함 -->
+    <!-- 그리고 web.xml은 제시작 해서 필터를 받아야함 -->
+
 </web-app>
