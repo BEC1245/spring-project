@@ -21,9 +21,10 @@
     <!-- 이 정적자원 경로 설정은 해당 자원의 full 경로를 입력하면 해당하는 자원을 불러오는 설정으로 -->
     <!-- 경로 설정을 줄이는 것이 아닌 frontcontroller에서 처리를 복잡하게 안 하려고 설정하는 것이다. -->
     <!-- 해당 경로에 있는지만 확인하는 역할 -->
-    <mvc:resources mapping="/resources/**" location="/resources/"></mvc:resources>
-    <mvc:resources mapping="/css/**" location="/css/"></mvc:resources>
-    <mvc:resources mapping="/some/**" location="/some/"></mvc:resources>
+
+<!--    <mvc:resources mapping="/resources/**" location="/resources/"></mvc:resources>-->
+<!--    <mvc:resources mapping="/css/**" location="/css/"></mvc:resources>-->
+<!--    <mvc:resources mapping="/some/**" location="/some/"></mvc:resources>-->
 
     <!-- view 설정 (view resolver)-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

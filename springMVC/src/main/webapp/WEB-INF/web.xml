@@ -34,4 +34,37 @@
         <url-pattern>/</url-pattern> <!-- 요청을 처리할 범위 "/" == 모든 요청 -->
     </servlet-mapping>
 
+<!--    <filter>-->
+<!--        <filter-name>encoding</filter-name>-->
+<!--        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>-->
+
+<!--        <init-param>-->
+<!--            <param-name>encoding</param-name>-->
+<!--            <param-value>UTF-8</param-value>-->
+<!--        </init-param>-->
+<!--    </filter>-->
+
+        <filter>
+            <filter-name>filter</filter-name>
+            <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+
+            <!-- 파라미터의 이름은 무조건 설정하는 필터와 일치해야한다 예(Character incoding -> encoding) -->
+            <!-- 다른 이름으로 할 경우 에러를 던짐 -->
+            <init-param>
+                <param-name>encoding</param-name>
+                <param-value>UTF-8</param-value>
+            </init-param>
+        </filter>
+
+    <filter-mapping>
+        <filter-name>filter</filter-name>
+        <servlet-name>appServlet</servlet-name>
+    </filter-mapping>
+
+
+<!--    <filter-mapping>-->
+<!--        <filter-name>encoding</filter-name>-->
+<!--        <servlet-name>appServlet</servlet-name> &lt;!&ndash; 필터는 요청과 응답을 처리하는 서블릿에 넣어서 작동시켜야 한다 (urlPattern이 아니라는 소리) &ndash;&gt;-->
+<!--    </filter-mapping>-->
+
 </web-app>

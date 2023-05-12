@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: hi
   Date: 2023-05-12
-  Time: 오전 11:52
+  Time: 오후 3:26
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -10,13 +10,7 @@
 <head>
     <title>Title</title>
 </head>
-
 <body>
-    <h1 align="center">이름 : ${getName}</h1>
-    <h1 align="center">장소 : ${getPlace}</h1>
-    <hr>
-
-    <h2>${incheon}</h2>
+    <h1>${list[0]}</h1>
 </body>
-
 </html>

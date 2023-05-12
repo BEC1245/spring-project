@@ -15,7 +15,7 @@
     <h1 align="center">${title}</h1>
     <hr>
 
-    <form method="post">
+    <form action="/subPage" method="get">
         <table>
             <th>이름</th>
             <th>사는 곳</th>
@@ -29,7 +29,7 @@
     </form>
 
     <hr>
-    <h3>${sand}</h3>
+    <h3>${send}</h3>
 
 </body>
 </html>
