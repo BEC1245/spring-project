@@ -1,0 +1,38 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hi.deptspring.deptspring.mapper.deptMapper">
+
+    <!-- resultType은 경로 풀 네임을 적어야 한다 -->
+    <select id="selectAll" resultType="com.hi.deptspring.deptspring.domain.DeptDTO">
+        select * from dept
+    </select>
+
+    <!-- 전달되는 값이 하나면 아무거나 넣을 수 있음 [{sipalnom} {dno} {no}.....] (파라미터로) -->
+    <select id="selectByDeptno" resultType="com.hi.deptspring.deptspring.domain.DeptDTO">
+
+        select * from dept where deptno = #{dno}
+
+    </select>
+
+    <insert id="insertDept" parameterType="com.hi.deptspring.deptspring.domain.DeptRegistRequest">
+
+        insert into dept (dname, loc) values (#{dname}, #{loc})
+
+    </insert>
+
+    <update id="updateDept"
+            parameterType="com.hi.deptspring.deptspring.domain.DeptDTO">
+
+        update dept set dname=#{dname}, loc=#{loc} where deptno = #{deptno}
+
+    </update>
+
+    <delete id="deleteDept">
+
+        delete from dept where deptno=#{id}
+
+    </delete>
+
+</mapper>

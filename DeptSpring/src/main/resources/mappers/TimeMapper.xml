@@ -1,0 +1,16 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 선언한 멥퍼는 interface와 연결돠어야 한다. -->
+<!-- namespace로 구현한 인터페이스와 연결한다 (필수) -> mapper interface의 풀내임 -->
+<mapper namespace="com.hi.deptspring.deptspring.mapper.TimeMapper">
+
+    <!-- 받을 메서드 이름과 id를 일치 시켜야 한다 -->
+    <select id="getTime" resultType="string">
+
+        select now() from dual
+
+    </select>
+
+</mapper>

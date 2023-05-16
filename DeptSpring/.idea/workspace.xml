@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14ef1da9-0958-4c75-95f7-6d1add80cc17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptDeleteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptModifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptRegistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptRegistRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/TimeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/TimeMapper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/deptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptDeleteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptModifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptReadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptRegistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TimeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/deptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/modifyForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/registForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hi/deptSpring/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/SampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/test/sample.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reviseCode/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/DateConverterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/ErrorTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/MyPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/pathVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/domain/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/domain/UserReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/exception/CommonExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/formatter/localdateFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/intercepter/AuthCheckIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/intercepter/intercpet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/custom404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/date.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/dateform.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/member/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/mypage/mypage1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/mypage/mypage2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/mypage/mypage3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/report/reportForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/report/submit1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/report/submit2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/report/submit3.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/arrayPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/mainPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/subPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/domain/array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/domain/infoList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/array.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/mainPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/subPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DeptSpring" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="XML Properties File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2Pr5erFrOLjoof727dHGUMPHRtt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/hi/Documents/GitHub/spring-project/DeptSpring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "f331d5f53c9a8c64135f15d0532c2678",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hi\Documents\GitHub\spring-project\DeptSpring\src\main\resources" />
+      <recent name="C:\Users\hi\Documents\GitHub\spring-project\DeptSpring\src\main\webapp\WEB-INF\spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hi.deptspring.deptspring.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.74">
+    <configuration name="ConnectionTest.connectionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.hi.deptSpring.ConnectionTest.connectionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConnectionTest.getTimeMapperTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.hi.deptSpring.ConnectionTest.getTimeMapperTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.74" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.74" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="Gradle : com.hi.deptspring : DeptSpring-1.0-SNAPSHOT.war (exploded)">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d6c238b3-6fa9-4850-81b5-6aa4de068c8b" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53221" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.hi.deptspring : DeptSpring-1.0-SNAPSHOT.war (exploded)" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ConnectionTest.getTimeMapperTest" />
+        <item itemvalue="Gradle.ConnectionTest.connectionTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14ef1da9-0958-4c75-95f7-6d1add80cc17" name="Changes" comment="" />
+      <created>1684202460783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684202460783</updated>
+      <workItem from="1684202461775" duration="23077000" />
+      <workItem from="1684231160861" duration="2769000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

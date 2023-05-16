@@ -3,8 +3,8 @@ plugins {
   id 'war'
 }
 
-group 'com.hi'
-version '1.0-SNAPSHOT' // snapshot -> 개발 진행중
+group 'com.hi.deptspring'
+version '1.0-SNAPSHOT'
 
 repositories {
   mavenCentral()
@@ -17,8 +17,6 @@ ext {
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
-// 빋드 도구가 컴파일도 해줘서
-// encoding 장식을 설정 가능
 tasks.withType(JavaCompile) {
   options.encoding = 'UTF-8'
 }
@@ -28,8 +26,6 @@ dependencies {
 
   testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
-
-  // 필요한 디펜던시 : Spring, log4j2, lombok, jstl, fileUpload, DB관련 (Connection Pool + mybatis)
 
   // spring
   // spring-core, spring-context, spring-test, [spring-webmvc] -> 버전은 통일
@@ -52,13 +48,19 @@ dependencies {
   // jstl view 처리용
   implementation group: 'jstl', name: 'jstl', version: '1.2'
 
-  // 파일 업로드 관련 설정
-  // fileUpload + io (appach 재단에서 제공해주는 파일 업로드 관련 api)
-  implementation group: 'commons-fileupload', name: 'commons-fileupload', version: '1.3.3' // 파일 업로드 처리
-  implementation group: 'commons-io', name: 'commons-io', version: '2.5'                   // 간편한 id 처리를 위하여 사용
+  // DB + connection Pool + mybatis
+  implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.31'
+  implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+
+  //
+  implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.3.19'
+  implementation group: 'org.springframework', name: 'spring-tx', version: '5.3.19'
+
+  implementation 'org.mybatis:mybatis:3.5.9'
+  implementation 'org.mybatis:mybatis-spring:2.0.7'
+
 
 }
 
 test {
-  useJUnitPlatform()
-}
+  useJUnitPlatform()  }

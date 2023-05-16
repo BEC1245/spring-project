@@ -26,6 +26,9 @@
 <!--    <mvc:resources mapping="/css/**" location="/css/"></mvc:resources>-->
 <!--    <mvc:resources mapping="/some/**" location="/some/"></mvc:resources>-->
 
+    <!-- 서블릿이 읽을 정적 파일의 위치 -->
+    <mvc:resources mapping="/uploadfile/**" location="/uploadfile/"/>
+
     <!-- view 설정 (view resolver)-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
@@ -44,7 +47,45 @@
 <!--    suffix를 제거 -> member/loginform-->
 <!--    [member/loginform] 이상태로 사용한다-->
 
+
+    <!-- 파일 업로드를 위해서는 multipartResolver 등록이 필수이다. -->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
+    >
+        <!-- 받을 파일의 문자열 설정 default[ISO-8859-1] -->
+        <property name="defaultEncoding" value="UTF-8"/>
+
+
+    </bean>
+
+
+    <!-- 인터셉터 설정 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+
+            <!-- mypage아래로 오는 모든 폴더를 들어갈 때 작동 -->
+            <mvc:mapping path="/mypage/**"/>
+
+            <!-- mypage안 help안 파일들은 인터셉터 처리를 안하겠다 설정 -->
+            <mvc:exclude-mapping path="/mypage/help/**"/>
+            <bean class="com.hi.app.intercepter.AuthCheckIntercepter"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
     <!-- bean 자동 등록 설정 : @Controller, @Service, @Repository -->
     <context:component-scan base-package="com.hi.app"></context:component-scan>
+
+    <bean id="conversionService"
+          class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+
+        <property name="formatters">
+            <set>
+                <bean class="com.hi.app.formatter.localdateFormatter"/>
+            </set>
+        </property>
+    </bean>
+
+    <!-- formatter 등록 설정-->
+    <mvc:annotation-driven conversion-service="conversionService"/>
 
 </beans>
