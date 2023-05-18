@@ -5,87 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14ef1da9-0958-4c75-95f7-6d1add80cc17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptDeleteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptModifyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptRegistController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptRegistRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/TimeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/TimeMapper2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/deptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptDeleteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptModifyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptReadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptRegistService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/TimeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/deptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/modifyForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/registForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hi/deptSpring/ConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoMan/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/SampleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/test/sample.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reviseCode/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/DateConverterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/ErrorTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/FileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/MyPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/pathVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/domain/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/domain/UserReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/exception/CommonExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/formatter/localdateFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/intercepter/AuthCheckIntercepter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/intercepter/intercpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/custom404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/date.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/dateform.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/member/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/mypage/mypage1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/mypage/mypage2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/mypage/mypage3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/report/reportForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/report/submit1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/report/submit2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/views/report/submit3.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/arrayPageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/mainPageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/subPageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/domain/array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/domain/infoList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/array.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/mainPage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/result.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/subPage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/src/main/java/com/hi/app/controller/loginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/rest/DeptRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/rest/ExampleRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/rest/simpleConverterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptSearchOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mc/simple.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/controller/BoardListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/controller/BoardShowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/controller/BoardWriteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/domain/RequestRegistBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/domain/boardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/interfaceMapper/BoardMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/service/BoardInsertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/service/BoardListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/resources/mappers/boardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/config/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/config/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/views/board/write.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/test/java/com/hi/board/testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymleaf/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymleaf/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymleaf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymleaf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymleaf/src/main/resources/mappers/thymeleafMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymleaf/src/main/webapp/WEB-INF/config/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymleaf/src/main/webapp/WEB-INF/config/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/deptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/deptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptDeleteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptDeleteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/deptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/deptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hi/deptSpring/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hi/deptSpring/ConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,30 +102,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hi/Documents/GitHub/spring-project/DeptSpring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "f331d5f53c9a8c64135f15d0532c2678",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hi/Documents/GitHub/spring-project/DeptSpring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f331d5f53c9a8c64135f15d0532c2678&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hi\Documents\GitHub\spring-project\DeptSpring\src\main\resources" />
       <recent name="C:\Users\hi\Documents\GitHub\spring-project\DeptSpring\src\main\webapp\WEB-INF\spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hi.deptspring.deptspring.controller" />
       <recent name="com.hi.deptspring.deptspring.mapper" />
     </key>
   </component>
@@ -209,6 +169,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.hi.deptSpring.ConnectionTest.getTimeMapperTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConnectionTest.seachDeptTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.hi.deptSpring.ConnectionTest.seachDeptTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConnectionTest.selectByDeptnosTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.hi.deptSpring.ConnectionTest.selectByDeptnosTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -309,6 +317,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ConnectionTest.selectByDeptnosTest" />
+        <item itemvalue="Gradle.ConnectionTest.seachDeptTest" />
         <item itemvalue="Gradle.ConnectionTest.getTimeMapperTest" />
         <item itemvalue="Gradle.ConnectionTest.connectionTest" />
       </list>
@@ -323,7 +333,12 @@
       <option name="presentableId" value="Default" />
       <updated>1684202460783</updated>
       <workItem from="1684202461775" duration="23077000" />
-      <workItem from="1684231160861" duration="2769000" />
+      <workItem from="1684231160861" duration="3413000" />
+      <workItem from="1684276555722" duration="28891000" />
+      <workItem from="1684363118004" duration="41000" />
+      <workItem from="1684365623817" duration="693000" />
+      <workItem from="1684371578668" duration="14163000" />
+      <workItem from="1684392476028" duration="2208000" />
     </task>
     <servers />
   </component>

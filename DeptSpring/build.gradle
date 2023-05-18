@@ -59,6 +59,8 @@ dependencies {
   implementation 'org.mybatis:mybatis:3.5.9'
   implementation 'org.mybatis:mybatis-spring:2.0.7'
 
+  // json을 객체로 객체를 json으로 변환 시켜주는 넘
+  implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.0'
 
 }
 

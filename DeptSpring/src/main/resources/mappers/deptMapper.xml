@@ -4,10 +4,28 @@
 
 <mapper namespace="com.hi.deptspring.deptspring.mapper.deptMapper">
 
+    <!-- DeptDTO는 이름과 받은 이름을 일치시켜서 처리 했지만 -->
+    <!-- 컬럼 이름이 일치하지 않은 상화이 올 수 있기에 -->
+    <!-- 아래의 설정을 한다 -->
+    <!-- 매핑의 규칙을 정의 == 반환된 결과를 설정한다 -->
+    <resultMap id="deptMap" type="com.hi.deptspring.deptspring.domain.DeptDTO">
+        <id column="deptno" property="deptno"/>
+        <result column="dname" property="dname"/>
+        <result column="loc" property="loc"/>
+    </resultMap>
+
+    <select id="selectAll2" resultMap="deptMap">
+        select * from dept
+    </select>
+
     <!-- resultType은 경로 풀 네임을 적어야 한다 -->
     <select id="selectAll" resultType="com.hi.deptspring.deptspring.domain.DeptDTO">
         select * from dept
     </select>
+
+
+    <!-- ///////////////////////////////////////////////// -->
+
 
     <!-- 전달되는 값이 하나면 아무거나 넣을 수 있음 [{sipalnom} {dno} {no}.....] (파라미터로) -->
     <select id="selectByDeptno" resultType="com.hi.deptspring.deptspring.domain.DeptDTO">
@@ -16,11 +34,90 @@
 
     </select>
 
+    <!-- DeptSearchOption으로 받고 DeptDTO로 반환하는 코드 -->
+    <select id="selectByOption"
+            parameterType="com.hi.deptspring.deptspring.domain.DeptSearchOption"
+            resultType="com.hi.deptspring.deptspring.domain.DeptDTO">
+
+        select * from dept
+
+        <where>
+            <!-- searchtype null 여부로 검색 sql 작성 여부 판단 -->
+            <!-- && 조건은 and로 치환 -->
+            <if test="searchType != null and keyword != null">
+
+                <!-- 여기서 like('%#{}%') 형식으로 던지면 오류를 낸다 그래서 -->
+                <!-- concat이라는 문자를 더해주는 문항을 사용하여 처리할 수 있다-->
+                <if test="searchType == 'dname'">
+                    <!--dname like concat('%', #{keyword},'%')-->
+                    <include refid="searchDname"/>
+                </if>
+                <if test="searchType == 'loc'">
+                    <!--loc like concat('%', #{keyword},'%')-->
+                    <include refid="searchLoc"/>
+                </if>
+
+                <!-- where 내부적으로 처음으로 붇은 or를 지워줌 -->
+                <if test="searchType == 'both'">
+                    <include refid="searchDname"/>
+                    <include refid="searchLoc"/>
+                </if>
+            </if>
+        </where>
+
+    </select>
+
+    <!-- 해당 문서를 조각화하는 작업 -->
+    <!-- 위의 문서에서 해당하는 객체를 include 시켜주면 해당 문자를 넣어줌 -->
+    <sql id="searchDname">
+       or dname like concat('%', #{keyword},'%')
+    </sql>
+
+    <sql id="searchLoc">
+       or loc like concat('%', #{keyword},'%')
+    </sql>
+
+    <!-- 그냥 인발 데이터를 담는 리스트는 그냥 list처리 해줌 -->
+    <select id="selectByDeptnos" parameterType="list" resultType="com.hi.deptspring.deptspring.domain.DeptDTO">
+        select * from dept
+
+        <where>
+            <if test="list != null and list.size != 0">
+                deptno in
+                <foreach collection="list"
+                         item="item"
+                index="index"
+                separator=","
+                open="("
+                close=")">
+                    #{item} <!-- <-이게 위의 item 이름과 동기화 -->
+                </foreach>
+
+            </if>
+        </where>
+
+    </select>
+
+
+    <insert id="insertDept2"
+            parameterType="com.hi.deptspring.deptspring.domain.DeptRegistRequest"
+            useGeneratedKeys="true"
+            keyProperty="deptno"> <!-- 이게 증가된 값을 객체에 넣어서 반환한다 -->
+
+        insert into dept (dname, loc) values (#{dname}, #{loc})
+
+    </insert>
+
+
+
     <insert id="insertDept" parameterType="com.hi.deptspring.deptspring.domain.DeptRegistRequest">
 
         insert into dept (dname, loc) values (#{dname}, #{loc})
 
     </insert>
+
+
+
 
     <update id="updateDept"
             parameterType="com.hi.deptspring.deptspring.domain.DeptDTO">

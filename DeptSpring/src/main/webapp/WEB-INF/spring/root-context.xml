@@ -58,7 +58,7 @@
     <!-- 위의 설정을 주입하는 코드 -->
     <!--Connection 제공한다-->
     <bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource">
-        <constructor-arg ref="hikariConfig"></constructor-arg>
+        <constructor-arg ref="hikariConfig"/>
     </bean>
 
 
