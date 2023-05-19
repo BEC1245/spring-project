@@ -5,46 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14ef1da9-0958-4c75-95f7-6d1add80cc17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/rest/DeptRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/rest/ExampleRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/rest/simpleConverterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptSearchOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mc/simple.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/controller/BoardListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/controller/BoardShowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/controller/BoardWriteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/domain/RequestRegistBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/domain/boardDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/interfaceMapper/BoardMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/service/BoardInsertService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/service/BoardListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/resources/mappers/boardMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/config/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/config/servlet-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/views/board/write.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/test/java/com/hi/board/testing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thymleaf/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thymleaf/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thymleaf/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thymleaf/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thymleaf/src/main/resources/mappers/thymeleafMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thymleaf/src/main/webapp/WEB-INF/config/root-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thymleaf/src/main/webapp/WEB-INF/config/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/utility/fileConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/thymeleafMainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/domain/exampleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/formatters/DatetimeFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/spring/thymeleaf-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/test/thymeleafMain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/test/thymeleafMain.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/controller/DeptListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/domain/DeptDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/deptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/mapper/deptMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptDeleteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptDeleteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hi/deptspring/deptspring/service/DeptListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/deptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/deptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hi/deptSpring/ConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hi/deptSpring/ConnectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/domain/RequestRegistBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/domain/RequestRegistBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/domain/boardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/java/com/hi/board/domain/boardDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasicBoard/src/main/resources/mappers/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/resources/mappers/boardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/config/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasicBoard/src/main/webapp/WEB-INF/config/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/java/com/hi/demoman/controllers/SampleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/spring/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/spring/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/views/test/sample.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoMan/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/src/main/java/com/hi/thymleaf/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/src/main/resources/mappers/thymeleafMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/src/main/webapp/WEB-INF/config/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/src/main/webapp/WEB-INF/config/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymleaf/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,24 +99,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hi/Documents/GitHub/spring-project/DeptSpring&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f331d5f53c9a8c64135f15d0532c2678&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/hi/Documents/GitHub/spring-project/springMVC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "f331d5f53c9a8c64135f15d0532c2678",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hi\Documents\GitHub\spring-project\DeptSpring\src\main\resources" />
@@ -338,7 +335,10 @@
       <workItem from="1684363118004" duration="41000" />
       <workItem from="1684365623817" duration="693000" />
       <workItem from="1684371578668" duration="14163000" />
-      <workItem from="1684392476028" duration="2208000" />
+      <workItem from="1684392476028" duration="2807000" />
+      <workItem from="1684403285670" duration="554000" />
+      <workItem from="1684403857035" duration="101000" />
+      <workItem from="1684458418518" duration="12000" />
     </task>
     <servers />
   </component>

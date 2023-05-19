@@ -20,7 +20,7 @@ public class BoardReadController {
             @RequestParam("bno") int bno,
             Model model
     ){
-        model.addAttribute("page", readService.selectByBno(bno));
+        model.addAttribute("article", readService.selectByBno(bno));
     }
 
 }

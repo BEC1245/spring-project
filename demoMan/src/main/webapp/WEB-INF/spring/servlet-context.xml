@@ -16,11 +16,32 @@
 
     <mvc:annotation-driven/>
 
+    <!-- 정적 자원 넣는 곳 -->
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/image/**" location="/image/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+
+    <!--<bean class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basenames" value=""/>
+    </bean>-->
+
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/views/"></property>
-        <property name="suffix" value=".jsp"></property>
+        <property name="prefix" value="/WEB-INF/views"/>
+        <property name="suffix" value=".html"/>
     </bean>
 
     <context:component-scan base-package="com.hi.demoman"/>
+
+    <bean id="conversion" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="formatters">
+            <set>
+                <bean class="com.hi.demoman.formatters.DatetimeFormatter"/>
+            </set>
+        </property>
+    </bean>
+
+    <mvc:annotation-driven conversion-service="conversion"/>
+
+
 
 </beans>

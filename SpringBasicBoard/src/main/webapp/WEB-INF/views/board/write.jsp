@@ -10,34 +10,39 @@
 <head>
     <title>Title</title>
 </head>
-
 <body>
 
-    <h1>게시글 쓰기</h1>
-    <hr>
-    <form method="post">
-        <table>
-            <tr>
-                <td>작성자</td>
-                <td><input type="text" name="writer"></td>
-            </tr>
-            <tr>
-                <td>제목</td>
-                <td><input type="text" name="title"></td>
-            </tr>
-            <tr>
-                <td>내용</td>
-                <td>
-                    <textarea name="content" id="" cols="30" rows="10"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="reset" value="다 지워버려~"></td>
-                <td><input type="submit" value="작성 끝"></td>
-            </tr>
-        </table>
-    </form>
+<h1>게시글 쓰기</h1>
+<hr>
+<form method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>작성자</td>
+            <td><input type="text" name="writer" required></td>
+        </tr>
+        <tr>
+            <td>제목</td>
+            <td><input type="text" name="title" required></td>
+        </tr>
+        <tr>
+            <td>내용</td>
+            <td>
+                <textarea name="content" cols="20" rows="5" required></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>첨부파일(이미지)</td>
+            <td><input type="file" name="file"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="reset">
+                <input type="submit">
+            </td>
+        </tr>
+    </table>
+</form>
 
 </body>
-
 </html>

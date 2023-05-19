@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
+
+import javax.servlet.http.HttpServletRequest;
 
 @Log4j2
 @Controller
@@ -23,12 +26,13 @@ public class BoardWriteController {
 
     @PostMapping
     public String postVariable(
+            HttpServletRequest request,
             RequestRegistBoard board
     ){
 
         log.info("GET /board/write");
         log.info(board);
-        insertService.insertBoard(board);
+        insertService.insertBoard(request, board);
 
 
         return "redirect:/board/list";

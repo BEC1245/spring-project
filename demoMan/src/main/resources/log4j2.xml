@@ -16,7 +16,7 @@
         </logger>
 
         <!-- 여기가 출력을 맞춘 코드 [name 부분을 출력할 파일과 일치해야 한다] -->
-        <logger name="com.hi.todo" level="INFO" additivity="false">
+        <logger name="com.hi.demoman" level="INFO" additivity="false">
             <appender-ref ref="console"/>
         </logger>
 

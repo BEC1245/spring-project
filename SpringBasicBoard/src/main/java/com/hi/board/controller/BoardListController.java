@@ -1,5 +1,6 @@
 package com.hi.board.controller;
 
+import com.hi.board.domain.BoardListPage;
 import com.hi.board.domain.boardDTO;
 import com.hi.board.service.BoardInsertService;
 import com.hi.board.service.BoardListService;
@@ -20,10 +21,13 @@ public class BoardListController {
     @Autowired
     BoardListService listService;
 
+
     @GetMapping
     public void getView(
             Model model
     ){
+
+
         model.addAttribute("list", listService.selectAllList());
     }
 }

@@ -13,8 +13,42 @@
         select * from tbl_board where bno = #{bno}
     </select>
 
+    <select id="selectList" resultType="com.hi.board.domain.boardDTO">
+        <!-- 매개변수를 param[index] 이런식으로 표시가능 -->
+        <!-- 현 param1 == startNum // 현 param2 == count -->
+        select * from tbl_board order by bno desc limit #{param1}, #{param2}
+    </select>
+
+    <select id="selectTotalcount" resultType="int">
+        select count(*) from tbl_board
+    </select>
+
+
     <insert id="insertBoard" parameterType="com.hi.board.domain.RequestRegistBoard">
-       insert into tbl_board (title, content, writer) values (#{title}, #{content}, #{writer})
+
+        <!-- file : 파일의 이름을 저장하는 문자열 -->
+        <!-- multipartFile은 그냥 db에 치횐될 수가 없다 -->
+       insert into tbl_board (title, content, writer, file) values (#{title}, #{content}, #{writer}, #{filename})
     </insert>
+
+    <update id="updateBoard" parameterType="com.hi.board.domain.RequestRegistBoard">
+        update tbl_board
+        <set>
+            title = #{title},
+            content = #{content},
+            writer = #{writer},
+            updatedate = now(),
+            <if test="filename != null">
+                file = #{filename},
+            </if>
+        </set>
+        <where>
+            bno = #{bno}
+        </where>
+    </update>
+
+    <delete id="deleteBoard">
+        delete from tbl_board where bno = #{bno}
+    </delete>
 
 </mapper>
